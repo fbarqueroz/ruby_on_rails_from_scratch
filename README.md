@@ -39,3 +39,5 @@ ModelName.create(*the attributes values goes here*, example -> title: 'Yellow sh
 ### Some quickly notes
 Model on singular: Product
 Controller plural: Products
+
+@tamales -> Instance variable. This var will can use it on display
