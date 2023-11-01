@@ -1,13 +1,17 @@
-# Notebook
+# Ruby on Rails for scratch
+
+![Ruby gif]("https://giphy.com/gifs/animation-ruby-gemstone-vDKeAFPrMRW9PqChq8")
 
 ### RoR -> MVC
 
 * Model -> Request, validation before save
 * View -> Return to user html, pdf, csv, json; whatever than the browser can display
-* Controller -—> Logic
+* Controller -> Logic
 
 ## Create new project
+```
 rails new 'my_app' -d 'database'
+```
 
 ## Start project on local
 ```
@@ -36,7 +40,7 @@ ModelName.create(*the attributes values goes here*, example -> title: 'Yellow sh
 ```
 
 
-### Some quickly notes
+## Some quickly notes
 Model on singular: Product
 Controller plural: Products
 
