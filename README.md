@@ -1,6 +1,6 @@
 # Ruby on Rails for scratch
 
-![Ruby gif](https://giphy.com/gifs/animation-ruby-gemstone-vDKeAFPrMRW9PqChq8)
+![Ruby gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2d3NTNpNHRib3RramV2cTNpNnd5dG1qY3ZqazZhcDN5ajhzd2VzeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vDKeAFPrMRW9PqChq8/giphy.gif)
 
 ### RoR -> MVC
 
