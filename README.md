@@ -20,8 +20,9 @@ rails s // (server)
 ## Model
 
 * Create model
+rails generate model 'model's_name' + attribute:type, example:
 ```
-rails generate model 'model's_name' + attribute:type -> title:string description:text age:integer weight:float
+rails generate model People name:string description:text age:integer weight:float
 ```
 
 * Execute the db migrate
