@@ -32,6 +32,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
         price: '399.99'
       }
     }
+
+    assert_equal flash[:notice], 'Your products has been create successfully'
     # assert_redirected_to products_path
   end
 
