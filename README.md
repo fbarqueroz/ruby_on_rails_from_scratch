@@ -39,9 +39,16 @@ rails console
 ModelName.create(*the attributes values goes here*, example -> title: 'Yellow shirt', description: 'Size: L, Dry Fit', price: 200)
 ```
 
+## Partials
+HTML code that can be reudes in any view, example: header, footer
+All the partials must be write with '_' at the beginning of the word
 
 ## Some quickly notes
 Model on singular: Product
 Controller plural: Products
 
 @tamales -> Instance variable. This var will can use it on display
+
+localhost:3000/rails/info/routes -> return all routes/url that you've been declared
+
+<%= link_to 'route'%> -> define an ancord
