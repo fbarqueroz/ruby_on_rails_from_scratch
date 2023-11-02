@@ -55,4 +55,14 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'form'
   end
+
+  test 'allow to create a new product' do
+    post products_path(products(:ps4)), params: {
+      product: {
+        price: 399.99
+      }
+    }
+
+    assert_equal flash[:notice], 'Your products has been create successfully'
+  end
 end

@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # Patch -> update an existing product
+  patch '/products/:id', to: 'products#update'
+
   # Post
   post '/products', to: 'products#create'
 
