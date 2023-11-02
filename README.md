@@ -59,4 +59,6 @@ Controller plural: Products
 
 localhost:3000/rails/info/routes -> return all routes/url that you've been declared
 
-<%= link_to 'route'%> -> define an ancord
+<%= link_to 'route'%> -> to create an ancord
+
+pp -> Show on display the var content

@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+  # Post
+  post '/products', to: 'products#create'
+
+  # Get
   get '/products', to: 'products#index'
-  get 'products/:id', to: 'products#show', as: :product
-  # '#show' method display an specific product
+  get '/products/new', to: 'products#new', as: :new_product
+  get '/products/:id', to: 'products#show', as: :product
 end
