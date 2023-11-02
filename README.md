@@ -35,7 +35,7 @@ rails console
 
 * Insert data on DB attributes
 
-ModelName.create(*the attributes values goes here*), example
+ModelName.create(*the attributes values goes here*), example:
 ```
 People.create(name: 'Juanito', lastname: 'Alcachofa', description: 'Brown hair, blue eyes', age: 20)
 ```
@@ -43,6 +43,13 @@ People.create(name: 'Juanito', lastname: 'Alcachofa', description: 'Brown hair, 
 ## Partials
 HTML code that can be reudes in any view, example: header, footer
 All the partials must be write with '_' at the beginning of the word
+
+## Testing
+```
+rails test
+```
+create a file in /test/controller called 'fileName_controller_test.erb' -> people_controller_test.erb
+
 
 ## Some quickly notes
 Model on singular: Product
