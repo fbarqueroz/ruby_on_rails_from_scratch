@@ -55,4 +55,14 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'form'
   end
+
+  test 'can delete a product' do
+    assert_difference('Product.count', -1) do
+      delete product_path(products(:ps4))
+    end
+
+    assert_redirected_to products_path
+    assert_equal flash[:notice], 'Your product has been deleted successfully.'
+  end
+
 end

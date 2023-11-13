@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # Delete
+  delete '/products/:id', to: 'products#destroy'
+  
   # Patch -> update an existing product
   patch '/products/:id', to: 'products#update'
 

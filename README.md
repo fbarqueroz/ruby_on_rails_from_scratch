@@ -62,3 +62,6 @@ localhost:3000/rails/info/routes -> return all routes/url that you've been decla
 <%= link_to 'route'%> -> to create an ancord
 
 pp -> Show on display the var content
+
+### tdd -> test driver development
+* Realizar test con el return esperado. Luego, se hace la lógica hasta que el test funcione.
