@@ -65,3 +65,6 @@ pp -> Show on display the var content
 
 ### tdd -> test driver development
 * Realizar test con el return esperado. Luego, se hace la lógica hasta que el test funcione.
+
+### n + 1 query
+When the database make extra request of the data, and this isn't a good practice
