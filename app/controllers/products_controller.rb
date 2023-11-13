@@ -39,7 +39,7 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
     @product.destroy
 
-    redirect_to products_path, notice: 'Your product is deleted successfully', status: :see_other
+    redirect_to products_path, notice: 'Your product has been deleted successfully.', status: :see_other
 
   end
 
