@@ -13,6 +13,6 @@
 <%= link_to 'Delete product', product_path(@product), 
   data: { 
     turbo_method: :delete,
-    turbo_confirm: 'Are you sure you want to delete this product?'
+    turbo_confirm: t('common.confirm')
   } 
   %>
