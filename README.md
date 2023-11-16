@@ -50,6 +50,12 @@ rails test
 ```
 create a file in /test/controller called 'fileName_controller_test.erb' -> people_controller_test.erb
 
+## Generate Controller, View, Model and route in one command
+``
+// rails generate scaffold "ModelName" "fields"
+rails generate scaffold People name: string, lastname: string, description: string, age: integer
+``
+
 
 ## Some quickly notes
 Model on singular: Product
